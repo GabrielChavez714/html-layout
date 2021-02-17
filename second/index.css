@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 25px;
+}
+
+.top-container {
+    width: 100% ;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.purple-rectangle {
+    height:110px ;
+    width: 40px;
+    background-color: purple ;
+    display: inline-block;
+}
+
+.green-square {
+    height: 150px;
+    width: 275px;
+    background-color: green;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.blue-circle {
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.middle-container {
+    border: 5px dotted black;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.rectangle-shadow {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(243, 243, 187);
+    box-shadow: 10px 10px 5px 0px rgb(49, 48, 48);
+}
+
+.bottom-container {
+    width:60%;
+    border: 1px;
+    background-color: rgb(255, 241, 241);
+    padding: 100px;
+    box-sizing: border-box ;
+    box-shadow: 3px 3px 5px 0px gray;
+    margin: 25px auto;
+}
+
+.bottom-container h1 {
+    width: 100px;
+    color: rgb(17, 17, 138);
+    letter-spacing: 3mm;
+    text-align: center;
+    
+}
+
+/* I do not know why my text is not centered */
